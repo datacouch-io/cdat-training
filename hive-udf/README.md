@@ -1,14 +1,14 @@
-# NexR Hive UDFs
+# Hive UDFs
 
 ## About
-NexR Hive UDFs is a collection of user defined functions for Hive.
+Hive UDFs is a collection of user defined functions for Hive.
 
 ## License
 [Apache License Version 2.0](http://www.apache.org/licenses/LICENSE-2.0)
 
 ## Quickstart
-    $ git clone https://github.com/nexr/hive-udf.git
-    $ cd hive-udf
+    $ git clone https://github.com/datacouch-io/cdat-training.git
+    $ cd cdat-training/hive-udf
     $ mvn clean package
     or
     $ ant -Dhive.install.dir=../hive/build/dist clean package
@@ -45,8 +45,6 @@ NexR Hive UDFs is a collection of user defined functions for Hive.
     hive> CREATE TEMPORARY FUNCTION lnnvl AS 'com.nexr.platform.hive.udf.GenericUDFLnnvl';
     hive> CREATE TEMPORARY FUNCTION substr AS 'com.nexr.platform.hive.udf.UDFSubstrForOracle';
 
-## Usage of Hive UDFs
-See the details at [Project Wiki](https://github.com/nexr/hive-udf/wiki).
 
 ## References
 * [Apache Hive](http://hive.apache.org/)
